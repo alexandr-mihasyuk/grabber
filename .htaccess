@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteRule  ^$ public/web.php    [L]
+	RewriteRule  (.*) public/web.php$1 [L]
+</IfModule>

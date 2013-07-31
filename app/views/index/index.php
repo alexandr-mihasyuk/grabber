@@ -1,0 +1,3 @@
+index action
+
+<?= $test; ?>
